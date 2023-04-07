@@ -7,22 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
+        <header class="cabecalho">
+            <img class="cabecalho__imagem" src="img/logo">
+        </header>    
 
+
+          <div class="lupa-box">
+            <input class="lupa-txt" type="text" name="" placeholder="Buscar...">
+            <a class="lupa-btn" href="#">
+                <i class="fas fa-search"></i>
+            </a>
+    
+        </div>
     <div class="main">
         <input type="checkbox" id="chk" aria-hidden="true">
         <div class="signup">
             <form>
                 <label for="chk" aria-hidden="true">Sign Up</label>
-                <!-- <button >
-                    <img src="https://www.projetosupermed.com.br/wp-content/uploads/2019/09/facebook-icon-02.png" alt="" width="40px">
-                </button> -->
                 <input type="text" name="txt" placeholder="Nome" required>
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="password" name="pswd" placeholder="Senha" required>
@@ -31,9 +39,8 @@
         </div>
         <div class="login">
             <form>
-                <label for="chk" aria-hidden="true">login</label>
-                <h1 class="titulo">Bem Vindo</h1>
-                <h2 class="titulo-dois">de volta</h2>
+                <label class="login-txt" for="chk" aria-hidden="true">login</label>
+                <h1 class="titulo">Bem Vindo <br>de volta</h1>
                 <p class="subtitulo">Continue se conectando com a gente faça seu login</p>
                 <input type="text" name="txt" placeholder="Nome" required>
                 <input type="email" name="email" placeholder="Email" required>
@@ -57,13 +64,6 @@
                 <i class="fa fa-google"></i>
             </a>
         </div>
-
-
-        <!-- <a href="http://twitter.com/share" class="twitter-share-button" data-url="www.devmedia.com.br" data-text="Teste"
-            data-count="horizontal" data-via="aqui-seu-nome-de-usuario-do-twitter" data-lang="pt">Tweetar</a>
-        <script type="text/javascript" src="http://platform.twitter.com/widgets.js">
-        </script> -->
-
 </body>
 
 </html>

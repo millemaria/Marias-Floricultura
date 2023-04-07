@@ -1,18 +1,78 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     min-height: 100vh;
     font-family: 'Jost', sans-serif;
     background: linear-gradient(to bottom, #72CC8C, #74a181, #7cc490);
 }
 
+.cabecalho {
+    background-color: #641764;
+    width: 100%;
+    height: 120px;
+    max-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho__imagem {
+    display: flex;
+    background-color: #641764;
+    width: 110px;
+    border-radius: 100%;
+}
+
+.lupa-box {
+    position: absolute;
+    top: 40px;
+    left: 65%;
+    background: #BD77BD;
+    height: 20px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.lupa-box:hover>.lupa-btn {
+    background: white;
+}
+
+.lupa-btn {
+    color: #fff;
+    float: right;
+    width: 40px;
+    height: 20px;
+    border-radius: 50%;
+    background: #BD77BD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lupa-txt {
+    margin: auto;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    width: 150px;
+    height: 5px;
+    text-align: left;
+}
+
 .main {
+    margin: 150px;
     width: 350px;
-    height: 500px;
+    height: 550px;
     overflow: hidden;
+    position: absolute;
     background-color: #641764;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
@@ -22,28 +82,14 @@ body {
     display: none;
 }
 
-.titulo {
-    font-size: 20px;
-    /* align-items: center;
-    justify-content: center; */
-    margin: auto 120px;
-}
 
-.titulo-dois {
-    font-size: 20px;
-    margin: auto 130px;
-}
-
-.subtitulo {
-    font-size: 15px;
-    margin: auto 50px;
-}
 
 .signup {
     position: relative;
     width: 100%;
     height: 100%;
     background-color: #641764;
+    justify-content: center;
 }
 
 label {
@@ -93,11 +139,36 @@ button:hover {
 }
 
 .login {
-    height: 460px;
+    display: flex;
+    height: 480px;
     background: #eee;
     border-radius: 60% / 10%;
     transform: translateY(-180px);
     transition: .8s ease-in-out;
+    justify-content: center;
+}
+
+.login-txt {
+    margin: 30px;
+}
+
+.titulo {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    color: #72CC8C;
+
+}
+
+.subtitulo {
+    font-size: 10px;
+    margin: auto 50px;
+    color: #72CC8C;
+
+
 }
 
 .login label {
@@ -106,7 +177,7 @@ button:hover {
 }
 
 #chk:checked~.login {
-    transform: translateY(-500px);
+    transform: translateY(-510px);
 }
 
 #chk:checked~.login label {
