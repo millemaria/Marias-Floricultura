@@ -10,31 +10,40 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
 
 </head>
 
 <body>
-        <header class="cabecalho">
-            <img class="cabecalho__imagem" src="img/logo">
-        </header>    
+    <header class="cabecalho">
+        <img class="cabecalho__imagem" src="img/logo">
+    </header>
 
 
-          <div class="lupa-box">
-            <input class="lupa-txt" type="text" name="" placeholder="Buscar...">
-            <a class="lupa-btn" href="#">
-                <i class="fas fa-search"></i>
-            </a>
-    
-        </div>
+    <!-- <div class="lupa-box">
+        <input class="lupa-txt" type="text" name="" placeholder="Buscar...">
+        <a class="lupa-btn" href="#">
+            <i class="fas fa-search"></i>
+        </a>
+    </div> -->
+    <!-- <div class="tel">
+
+    </div> -->
+
+<form class="telefone">
+    <img class="tel-img" src="img/tel.png" alt="">
+    <input type="tel" placeholder="(xx) xxxxx - xxxx" class="numero">
+</form>
+
     <div class="main">
         <input type="checkbox" id="chk" aria-hidden="true">
         <div class="signup">
             <form>
-                <label for="chk" aria-hidden="true">Sign Up</label>
+                <label for="chk" aria-hidden="true">Criar Conta</label>
                 <input type="text" name="txt" placeholder="Nome" required>
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="password" name="pswd" placeholder="Senha" required>
-                <button>Sign Up</button>
+                <button>Criar</button>
             </form>
         </div>
         <div class="login">
@@ -52,17 +61,6 @@
             <span>
                 Or Sign Up Using
             </span>
-        </div>
-        <div class="flex-c-m">
-            <a href="#" class="login100-social-item bg1">
-                <i class="fa fa-facebook"></i>
-            </a>
-            <a href="#" class="login100-social-item bg2">
-                <i class="fa fa-twitter"></i>
-            </a>
-            <a href="#" class="login100-social-item bg3">
-                <i class="fa fa-google"></i>
-            </a>
         </div>
 </body>
 
