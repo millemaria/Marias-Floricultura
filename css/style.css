@@ -1,10 +1,11 @@
-body {
+*{
     margin: 0;
     padding: 0;
+}
+body {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     min-height: 100vh;
     font-family: 'Jost', sans-serif;
     background: linear-gradient(to bottom, #72CC8C, #74a181, #7cc490);
@@ -64,13 +65,40 @@ body {
 
 }
 
-.li-icons {
-    list-style: none;
+.li-icons1 {
     display: flex;
-    flex-direction: column;
-    align-items: end;
-    /* top: 10px; */
-    /* right: 100px; */
-    /* width: 10px;
-    height: 10px; */
+    position: relative;
+    width: 20px;
+    height: 15px;
+    top: 50px;
+    right: 160px;
+    margin: auto;
+
+}
+.li-icons2{
+    display: flex;
+    position: relative;
+    width: 20px;
+    height: 15px;
+    top: 35px;
+    right: 140px;
+    margin: auto;
+}
+.li-icons3{
+    display: flex;
+    position: relative;
+    width: 20px;
+    height: 13px;
+    top: 22px;
+    right: 118px;
+    margin: auto;
+}
+.li-icons4{
+    display: flex;
+    position: relative;
+    width: 20px;
+    height: 13px;
+    top: 10px;
+    right: 100px;
+    margin: auto;
 }
