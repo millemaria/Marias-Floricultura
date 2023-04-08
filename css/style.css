@@ -11,6 +11,12 @@ body {
     background: linear-gradient(to bottom, #72CC8C, #74a181, #7cc490);
 }
 
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .cabecalho {
     background-color: #641764;
     width: 100%;
@@ -79,4 +85,26 @@ body {
 
 .ul-icons li:hover {
     transform: scale(1.2);
+}
+
+.menu-bar {
+    height: 20px;
+    background-color: #BD77BD;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.menu-bar ul li {
+    display: flex;
+    cursor: pointer;
 }
