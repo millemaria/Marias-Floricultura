@@ -1,0 +1,92 @@
+body {
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(to bottom, #72CC8C, #74a181, #7cc490);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo {
+    width: 100%;
+    height: 200px;
+    background-image: radial-gradient(#ffcc005b, #070707),url(../img/wallpaper.jpg) ;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.title {
+    margin: 20px 0 ;
+}
+
+.catalogo {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.secao-flores {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 50px;
+    border-radius: 10px;
+    background-color: #00ff48;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.secao-flores .imagem-catalogo {
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.secao-flores .imagem-catalogo img {
+    width: 170px;
+    max-height: 100%;
+    border-radius: 10px;
+    box-shadow: -4px -4px 10px #000;
+}
+
+.info {
+    height: 23%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.info ul {
+    list-style: none;
+    position: absolute;
+    bottom: -5px;
+    right: 30px;
+}
+
+.info ul li {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.info ul li:hover {
+    transform: scale(1.2);
+}
+
+.info ul li i.desejo {
+    color: red;
+}
