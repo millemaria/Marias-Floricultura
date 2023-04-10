@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Jost*', sans-serif;
     background: linear-gradient(to bottom, 189, 119, 189, 0.6);
 }
 

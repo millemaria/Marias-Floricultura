@@ -11,6 +11,9 @@
     <script src="https://kit.fontawesome.com/dab0ae2ff9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link href="https://fonts.cdnfonts.com/css/jost" rel="stylesheet">
+
     <title>Document</title>
 
 </head>
@@ -21,41 +24,41 @@
         <header class="cabecalho">
             <img class="cabecalho__imagem" src="img/logo.png">
         </header>
-        
+
         <form class="telefone">
             <img class="tel-img" src="img/tel.png" alt="">
             <input type="tel" placeholder="(xx) xxxxx - xxxx" requiered class="numero">
         </form>
-        
+
         <div class="traco"></div>
-        
+
         <div class="icon-header">
-            
+
             <ul class="ul-icons">
-                
+
                 <li><i class="fa-solid fa-magnifying-glass"></i> </li>
                 <li><i class="fa-solid fa-cart-shopping"></i> </li>
                 <li><i class="fa-sharp fa-regular fa-heart"></i> </li>
-            <li><i class="fa-sharp fa-regular fa-user"></i> </li>
-        </ul>
+                <li><i class="fa-sharp fa-regular fa-user"></i> </li>
+            </ul>
+        </div>
+
+
+        <div class="menu-bar">
+
+            <ul>
+
+                <li>Tela Inicial</li>
+                <li>Buquês</li>
+                <li>Arranjos</li>
+                <li>Promoções</li>
+                <li>Nós</li>
+
+            </ul>
+
+        </div>
     </div>
 
-    
-    <div class="menu-bar">
-        
-        <ul>
-            
-            <li>Tela Inicial</li>
-            <li>Buquês</li>
-            <li>Arranjos</li>
-            <li>Promoções</li>
-            <li>Nós</li>
-            
-        </ul>
-        
-    </div>
-</div>
-    
     <div class="main">
         <input type="checkbox" id="chk" aria-hidden="true">
         <div class="signup">
@@ -64,6 +67,7 @@
                 <input type="text" name="txt" placeholder="Nome" required>
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="password" name="pswd" placeholder="Senha" required>
+                <input type="password" placeholder="Confirme Senha" id="confirm_password" required>
                 <button>Criar</button>
             </form>
         </div>

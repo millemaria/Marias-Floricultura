@@ -3,7 +3,7 @@ body {
     display: block;
     justify-content: center;
     min-height: 100vh;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Jost*', sans-serif;
     background: #fff
 }
 
@@ -70,7 +70,7 @@ main {
     align-items: flex-start;
     margin-left: 40px;
     margin-bottom: 10px;
-    font-family: 'Jost*', sans-serif;
+    /* font-family: 'Jost*', sans-serif; */
 }
 
 .info ul {
@@ -93,20 +93,3 @@ main {
     color: red;
 }
 
-/* Footer */
-
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    background-color: #641764;
-    box-sizing: border-box;
-    padding: 0 50px;
-    color: #72cc8c;
-}
-
-footer img {
-    max-height: 100%;
-}

@@ -7,6 +7,8 @@
     background-color: #641764;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
+    font-family: 'Jost', sans-serif;
+
 }
 
 #chk {
@@ -21,6 +23,8 @@
     height: 100%;
     background-color: #641764;
     justify-content: center;
+    margin-bottom: 20px;
+
 }
 
 label {
@@ -54,7 +58,7 @@ button {
     justify-content: center;
     display: block;
     color: #fff;
-    background: #573b8a;
+    background:rgba(0, 0, 0, 0.5);;
     font-size: 1em;
     font-weight: bold;
     margin-top: 20px;
@@ -66,7 +70,7 @@ button {
 }
 
 button:hover {
-    background: #6d44b8;
+    background: #BD77BD;
 }
 
 .login {
@@ -80,7 +84,7 @@ button:hover {
 }
 
 .login-txt {
-    margin: 40px;
+    margin: 35px;
 }
 
 .titulo {
@@ -90,12 +94,13 @@ button:hover {
     justify-content: center;
     text-align: center;
     color: #573b8a;
+    margin-bottom: 5px;
 
 }
 
 .subtitulo {
     font-size: 10px;
-    margin: auto 50px;
+    /* margin: auto 50px; */
     color: #573b8a;
 
 
