@@ -92,3 +92,21 @@ main {
 .info ul li i.desejo {
     color: red;
 }
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #641764;
+    box-sizing: border-box;
+    padding: 0 50px;
+    color: #72cc8c;
+}
+
+footer img {
+    max-height: 100%;
+}
