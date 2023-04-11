@@ -115,6 +115,7 @@ input {
     list-style: none;
     justify-content: space-between;
     margin: 0 20px;
+    align-items: center;
 }
 
 .menu-bar ul li {
