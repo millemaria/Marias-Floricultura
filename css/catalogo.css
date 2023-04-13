@@ -67,6 +67,7 @@ main {
     justify-content: center;
     position: relative;
     cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
 }
 
 
@@ -82,11 +83,12 @@ main {
 .secao-promocao .imagem-promocao img,
 .secao-buque .imagem-buque img,
 .secao-arranjo .imagem-arranjo img {
-    width: 170px;
-    max-height: 100%;
+    width: 200px;
+    height: 130px;
     border-radius: 10px;
-    box-shadow: -4px -4px 10px #000;
-}
+    position: absolute;
+    left: 0px;
+    top: 0px;}
 
 .info {
     height: 30%;
