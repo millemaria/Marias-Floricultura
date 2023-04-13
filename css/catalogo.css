@@ -31,7 +31,7 @@ main {
     width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 50px
+    gap: 50px;
 }
 
 .catalogo { 
@@ -68,6 +68,10 @@ main {
     position: relative;
     cursor: pointer;
     box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+.secao-promocao {
+    background-color: #BD77BD;
 }
 
 
@@ -120,6 +124,9 @@ main {
 }
 
 .info ul li i.desejo {
-    color: red;
+    color: #641764;
 }
 
+.info ul li i.carrinho {
+    color: #641764;
+}
