@@ -1,0 +1,30 @@
+.main {
+    margin: 170px 150px 150px;
+    width: 350px;
+    height: 550px;
+    overflow: hidden;
+    position: absolute;
+    background-color: #641764;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+    font-family: 'Jost', sans-serif;
+
+}
+.ADM{
+    margin-top: 100px;
+}
+
+.admin {
+    display: flex;
+    margin-top: 100px;
+    height: 300px;
+    background: #fff;
+    border-radius: 60% / 10%;
+    margin-bottom: 200px;
+}
+
+.icon-admin {
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 145px;
+}
