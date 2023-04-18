@@ -92,7 +92,7 @@ input {
     top: 27px;
     cursor: pointer;
     color: #BD77BD;
-    
+
 }
 
 .ul-icons li {
@@ -109,6 +109,7 @@ input {
     border: 1px solid;
     display: flex;
     align-items: center;
+
 }
 
 .menu-bar ul {
@@ -126,4 +127,8 @@ input {
 .menu-bar ul li {
     display: flex;
     cursor: pointer;
+}
+
+.tela-link{
+    text-decoration: none;
 }
