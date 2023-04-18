@@ -91,6 +91,8 @@ input {
     right: 167px;
     top: 27px;
     cursor: pointer;
+    color: #BD77BD;
+    
 }
 
 .ul-icons li {
@@ -117,6 +119,8 @@ input {
     justify-content: space-between;
     margin: 0 20px;
     align-items: center;
+    color: #641764;
+
 }
 
 .menu-bar ul li {
