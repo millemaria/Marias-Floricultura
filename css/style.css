@@ -9,7 +9,6 @@ body {
     justify-content: center;
     min-height: 100vh;
     font-family: 'Jost*', sans-serif;
-    /* background: FDE5FD; */
 }
 
 .header {
@@ -105,11 +104,15 @@ input {
 
 .menu-bar {
     height: 20px;
-    background-color: #BD77BD;
     border: 1px solid;
     display: flex;
     align-items: center;
+    background-color: #BD77BD;
+}
 
+.menu-bar a {
+    text-decoration: none;
+    color: #641764;
 }
 
 .menu-bar ul {
@@ -120,7 +123,6 @@ input {
     justify-content: space-between;
     margin: 0 20px;
     align-items: center;
-    color: #641764;
 
 }
 
