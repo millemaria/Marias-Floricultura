@@ -17,7 +17,7 @@ main {
 .fundo {
     width: 100%;
     height: 200px;
-    background-image: /* radial-gradient(#ffcc005b, #070707) , */ url(/img/©\ Cattleya\ percivalianahd.png);
+    background-image: url(/img/©\ Cattleya\ percivalianahd.png);
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -37,11 +37,28 @@ main {
     max-height: 250px;
     overflow-x: auto;
     overflow-y: hidden;
+    border-radius: 10px;
 }
 
-.promocao::-webkit-scrollbar{
-    width: 0;
-}
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+.promocao::-webkit-scrollbar {
+    width: 16px;
+  }
+
+.promocao::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  .promocao::-webkit-scrollbar-thumb {
+    background-color: #8f54a0;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
 
 .secao-promocao{
     width: 200px;
@@ -68,8 +85,9 @@ main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 50px;
     background-color: white;
-    padding: 5px;
+    padding: 15px 10px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 .buques {
@@ -79,7 +97,8 @@ main {
     gap: 50px;
     background-color: white;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 15px 10px;
+    border-radius: 10px;
 }
 
 .arranjos {
@@ -89,7 +108,8 @@ main {
     gap: 50px;
     background-color: white;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 15px 10px;
+    border-radius: 10px;
 }
 
 .secao-flores, 
@@ -97,7 +117,7 @@ main {
 .secao-arranjo {
     width: 200px;
     height: 200px;
-    margin: 0 auto 50px;
+    margin: 10px 0;
     border-radius: 10px;
     background: rgba(114, 204, 140, 0.7);
     display: flex;
